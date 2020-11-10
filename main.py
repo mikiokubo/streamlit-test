@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title("Test App")
 st.write("Welcome")
-df = pd.read_csv("covid-19.csv")
+df = pd.read_csv("COVID-19.csv")
 df["date"] = pd.to_datetime(df.dateRep)
 
 st.write(df)
